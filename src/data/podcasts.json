@@ -1,0 +1,158 @@
+{
+  "gute-leute": {
+    "title": "Gute Leute",
+    "description": "1LIVE verbringt gute Zeit mit guten Leuten. Ganz egal, ob prominent oder nicht – Sophie Passmann trifft sich einmal wöchentlich mit spannenden Menschen und lernt sie gemeinsam mit ihren Hörern kennen.",
+    "host": "mit Sophie Passmann",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/61CpNRqXS590DJT0ndWd7K"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/ch/podcast/1live-gute-leute/id115605399"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/on-air/gute-leute/index.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/gute-leute/33514892"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtdGFsay9laW5zbGl2ZS10YWxrLTEwNC5wb2RjYXN0"
+      },
+      {
+        "name": "tunein",
+        "url": "https://tunein.com/podcasts/German-Music/Gute-Leute-p260678/"
+      },
+      { "name": "deezer", "url": "https://www.deezer.com/de/show/20241" },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/1live-talk/einslive-talk-104.podcast"
+      }
+    ]
+  },
+  "bratwurst-und-baklava": {
+    "title": "Bratwurst und Baklava",
+    "description": "Bastian Bielendorfer und Özcan Cosar sind erfolgreiche Comedians. Ihre Wege dahin verliefen unterschiedlich. Ihre Blicke auf Deutschland sind vielschichtig. Im Podcast gilt: Reden hilft und zusammen lachen erst recht.",
+    "host": "mit Bastian Bielendorfer und Özcan Cosar",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/0bKZvIyv6mhQeiuqBsCJIO?si=ltku3S7TQw21s4x2e0HAxA"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-bratwurst-und-baklava/id1481370694"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/on-air/bratwurst-und-baklava/index.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/bratwurst-und-baklava-zwei-comedians-mit-zwei-geschichten-in-einem-land/67197748"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvYnJhdHd1cnN0LXVuZC1iYWtsYXZhL2JyYXR3dXJzdC11bmQtYmFrbGF2YS0xMDYucG9kY2FzdA%3D%3D"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/bratwurst-und-baklava/bratwurst-und-baklava-106.podcast"
+      }
+    ]
+  },
+  "podcastfestival": {
+    "title": "1LIVE Podcastfestival",
+    "description": "Erlebt eure Lieblingspodcasts live. Mit dabei: Muss das sein?, Bratwurst & Baklava, Kack & Sachgeschichten, COSMO Machiavelli, Gefühlte Fakten, Plauschangriff, Die Johnsons, Deutschland3000, Mordlust, Eine Stunde History und Beste Freundinnen feat. Ines Anioli und Ariana.",
+    "host": "",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/6wissCiESMwOqGEn0g16cL"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-podcastfestival/id1448378480"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/podcasts/1live-podcastfestival100.html"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvMWxpdmUtcG9kY2FzdGZlc3RpdmFsL3BvZGNhc3RmZXN0aXZhbC0xMDgucG9kY2FzdA"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/1live-podcastfestival/podcastfestival-108.podcast"
+      }
+    ]
+  },
+  "dumm-gefragt": {
+    "title": "Dumm gefragt",
+    "description": "Sind Flugbegleiter nur Kellner? Und gehen Fußballfans nur zum Saufen ins Stadion? Es gibt viele Klischees und Vorurteile. Aber was ist wirklich dran? In „1LIVE Dumm gefragt“ findet es unser Moderator Fritz Schaefer heraus und stellt die Fragen, die sonst keiner stellt.",
+    "host": "mit Fritz Schaefer",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/1UKaUABFLYOoKfftjGfIx5"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-dumm-gefragt/id1497872625"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/dumm-gefragt/podcast-dumm-gefragt-mit-fritz-schaefer-100.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/dumm-gefragt-der-podcast-mit-fritz-schaefer/71643360"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZHVtbS1nZWZyYWd0L2R1bW0tZ2VmcmFndC0xMDYucG9kY2FzdA"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/dumm-gefragt-106.podcast"
+      }
+    ]
+  },
+  "die-playlist-meines-lebens": {
+    "title": "1LIVE Die Playlist meines Lebens",
+    "description": "Prominente Musiker bringen für diesen Podcast die Songs mit, die sie geprägt haben und erzählen euch exklusiv, was sie ihnen bedeuten und welche privaten Erinnerungen sie damit verbinden. ",
+    "host": "",
+    "platforms": [
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/1M0gCyyqerD0sXkDnpbhWv"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/1live-die-playlist-meines-lebens/id1524811921"
+      },
+      {
+        "name": "1live",
+        "url": "https://www1.wdr.de/radio/1live/magazin/podcasts/die-playlist-meines-lebens-104.html"
+      },
+      {
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/die-playlist-meines-lebens/78255738"
+      },
+      {
+        "name": "google",
+        "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vMWxpdmUvZGllLXBsYXlsaXN0LW1laW5lcy1sZWJlbnMvZGllLXBsYXlsaXN0LW1laW5lcy1sZWJlbnMtMTA4LnBvZGNhc3Q"
+      },
+      {
+        "name": "rss",
+        "url": "https://www1.wdr.de/mediathek/audio/1live/die-playlist-meines-lebens/die-playlist-meines-lebens-108.podcast"
+      }
+    ]
+  }
+}
