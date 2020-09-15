@@ -24,7 +24,6 @@
         "name": "google",
         "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cxLndkci5kZS9tZWRpYXRoZWsvYXVkaW8vd2RyLzA2MzBieXdkcmFrdHVlbGwvMDYzMGJ5d2RyYWt0dWVsbC0xMDAucG9kY2FzdA"
       },
-      { "name": "deezer", "url": "https://www.deezer.com/de/show/20241" },
       {
         "name": "rss",
         "url": "https://www1.wdr.de/mediathek/audio/wdr/0630bywdraktuell/0630bywdraktuell-100.podcast"
