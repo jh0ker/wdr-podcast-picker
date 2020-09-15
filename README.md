@@ -1,17 +1,13 @@
-# 1LIVE Podcast Picker
+# WDR Podcast Picker
 
 Eine kleine Website, auf der Podcasts präsentiert werden und Nutzer wählen können, bei welchem Service sie den Podcast hören möchten.
 
-Beispiel-Seite: https://podcast.1live.de/gute-leute
+Original entwickelt für 1LIVE, angepasst für den WDR.
 
-Der Code basiert auf dem PULS Podcast-Picker von Sebastian Mark (PULS).
-
-## Team
-- Projektleitung: Robert Rack (1LIVE)
-- Design: Thomas Schlömer (1LIVE)
-- Umsetzung: Jannes Höke
+Der Original-Code basiert auf dem PULS Podcast-Picker von Sebastian Mark (PULS).
 
 ## Copyright
+
 Der Programmcode ist lizenziert unter der MIT-Lizenz. Für Grafiken, Design und Schriften werden alle Rechte vorbehalten.
 
 # Create React App

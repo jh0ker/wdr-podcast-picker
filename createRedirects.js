@@ -17,7 +17,7 @@ const podcastRedirects = Object.entries(podcasts)
   .flat();
 
 const allRedirect =
-  "/alle https://www1.wdr.de/radio/1live/magazin/podcasts/index.html 302";
+  "/alle https://www1.wdr.de/mediathek/audio/ 302";
 const pwaRedirect = "/* /index.html 200";
 
 writeFileSync(

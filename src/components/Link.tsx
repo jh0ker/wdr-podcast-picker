@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Link.module.scss";
 
-import einsliveLogo from "../img/icons/1live.svg";
+import wdrLogo from "../img/icons/wdr.svg";
 import tuneinLogo from "../img/icons/tunein.png";
 import stitcherLogo from "../img/icons/stitcher.png";
 import spotifyLogo from "../img/icons/spotify.png";
@@ -14,9 +14,9 @@ import audiothekLogo from "../img/icons/audiothek.svg";
 import { TrackingLink } from "./TrackingLink";
 
 const platforms = {
-  "1live": {
-    logo: einsliveLogo,
-    text: "1LIVE.de",
+  wdr: {
+    logo: wdrLogo,
+    text: "WDR.de",
     buttonText: "Abspielen"
   },
   audiothek: {
@@ -74,15 +74,17 @@ const Link: React.FC<{
   ...props
 }) => {
   if (href) {
+    const plat = platforms[platform];
+
     return (
       <div className={styles.item}>
         <div>
           <img
-            alt={"Logo " + platforms[platform].text}
+            alt={"Logo " + plat.text}
             className={styles.logo}
-            src={platforms[platform].logo}
+            src={plat.logo}
           />
-          <span>{platforms[platform].text}</span>
+          <span>{plat.text}</span>
         </div>
 
         <TrackingLink
@@ -90,9 +92,10 @@ const Link: React.FC<{
           id={`${podcast}/${platform}`}
           target="_self"
           onTouchStart={() => true}
+          aria-label={`${plat.buttonText} auf ${plat.text}`}
           {...props}
         >
-          <span>{platforms[platform].buttonText}</span>
+          <span>{plat.buttonText}</span>
         </TrackingLink>
       </div>
     );

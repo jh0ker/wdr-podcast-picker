@@ -1,6 +1,6 @@
 {
-  "short_name": "1LIVE Podcast Picker",
-  "name": "1LIVE Podcast Picker",
+  "short_name": "WDR Podcast Picker",
+  "name": "WDR Podcast Picker",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f00090",
-  "background_color": "#ffffff"
+  "theme_color": "#00345e",
+  "background_color": "#00345e"
 }

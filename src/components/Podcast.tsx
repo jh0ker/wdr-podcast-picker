@@ -7,7 +7,7 @@ import { TrackingLink } from "./TrackingLink";
 
 import podcastsJson from "../data/podcasts.json";
 import "./Podcast.scss";
-import einsliveLogo from "../img/1live_logo.svg";
+import wdrLogo from "../img/wdr_logo.svg";
 import iconArrowRight from "../img/arrow.svg";
 
 const images = Object.keys(podcastsJson).reduce((acc: any, current: string) => {
@@ -67,7 +67,9 @@ const Podcast: React.FC<PodcastProps> = props => {
   const detailPage = useMemo(
     () => (
       <div className="gallery__page gallery__page--detail">
-        <p className="podcast__wrapper__content__details--sub-headline">
+        <div className="podcast__wrapper__content__shadow--top" />
+        <div className="podcast__wrapper__content__shadow--bottom" />
+        <p className="podcast__wrapper__content__details--content">
           {podcast.description}
         </p>
       </div>
@@ -108,7 +110,7 @@ const Podcast: React.FC<PodcastProps> = props => {
       </div>
       <div className="podcast__wrapper inner">
         <div className="podcast__wrapper__content">
-          <img src={einsliveLogo} className="logo" alt="1LIVE" />
+          <img src={wdrLogo} className="logo" alt="WDR" />
           {gallery}
           <div className="podcast__wrapper__content__details">
             <h1 className="podcast__wrapper__content__details--headline">
@@ -133,21 +135,21 @@ const Podcast: React.FC<PodcastProps> = props => {
               }
             )}
             <TrackingLink
-              href="https://www1.wdr.de/radio/1live/magazin/podcasts/index.html"
+              href="https://www1.wdr.de/mediathek/audio/"
               id="alle"
               className="podcast__wrapper__content__details--more"
             >
-              <span>Alle 1LIVE Podcasts</span>
+              <span>Alle WDR Podcasts</span>
               <img src={iconArrowRight} alt="Pfeil" />
             </TrackingLink>
           </div>
           <div className="podcast__wrapper__content__footer">
             <span>
-              <a href="https://www1.wdr.de/radio/1live/einslive-impressum-100.html">
+              <a href="https://www1.wdr.de/impressum/index.html">
                 Impressum
               </a>{" "}
               |{" "}
-              <a href="https://www1.wdr.de/radio/1live/datenschutz-130.html">
+              <a href="https://www1.wdr.de/hilfe/datenschutz102.html">
                 Datenschutz
               </a>{" "}
               | <a href="https://www1.wdr.de/copyright/index.html">©WDR 2020</a>

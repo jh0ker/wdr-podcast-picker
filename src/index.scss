@@ -1,17 +1,13 @@
-@font-face {
-  font-family: "Franklin Gothic Heavy";
-  src: url(./fonts/FranklinGothic-Hvy-webfont.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
+@import "./fonts.scss";
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Thesis, arial, roboto, "droid sans", helvetica, sans-serif;
   height: 100%;
   width: 100%;
   animation: fadeIn 1s;
+  background-color: rgb(253, 253, 252);
 }
 
 * {
@@ -21,7 +17,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  font-family: "ThesisBlack", Arial, sans-serif;
   text-transform: uppercase;
 }
 
