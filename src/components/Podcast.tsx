@@ -119,7 +119,7 @@ const Podcast: React.FC<PodcastProps> = (props) => {
           }${podcastImage}`}
         />
         <meta property="og:url" content="https://wdr.de/0630" />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div
         className="background"
