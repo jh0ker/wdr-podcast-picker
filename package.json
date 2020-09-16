@@ -19,7 +19,7 @@
   "scripts": {
     "create-redirects": "node createRedirects.js",
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "REACT_APP_DEPLOY_URL=$DEPLOY_URL REACT_APP_URL=$URL react-scripts build && REACT_APP_DEPLOY_URL=$DEPLOY_URL REACT_APP_URL=$URL react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve build"

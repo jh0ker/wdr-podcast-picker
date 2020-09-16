@@ -112,11 +112,10 @@ const Podcast: React.FC<PodcastProps> = (props) => {
           content={`${podcast.title} ${podcast.host}`}
         />
         <meta property="og:description" content={podcast.description} />
-        <meta property="og:image" content={podcastImage} />
         <meta
-          property="twitter:image"
+          property="og:image"
           content={`${
-            process.env["DEPLOY_URL"] || process.env["URL"]
+            process.env["REACT_APP_DEPLOY_URL"] || process.env["REACT_APP_URL"]
           }${podcastImage}`}
         />
         <meta property="og:url" content="https://wdr.de/0630" />
