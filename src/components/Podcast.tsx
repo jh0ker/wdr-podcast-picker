@@ -115,7 +115,9 @@ const Podcast: React.FC<PodcastProps> = (props) => {
         <meta property="og:image" content={podcastImage} />
         <meta
           property="twitter:image"
-          content={`${process.env["NETLIFY_DEPLOY_URL"]}${podcastImage}`}
+          content={`${
+            process.env["DEPLOY_URL"] || process.env["URL"]
+          }${podcastImage}`}
         />
         <meta property="og:url" content="https://wdr.de/0630" />
         <meta name="twitter:card" content="summary_large_image" />
