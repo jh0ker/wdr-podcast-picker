@@ -4,6 +4,7 @@ import ImageGallery from "react-image-gallery";
 
 import Link, { Platform } from "./Link";
 import { TrackingLink } from "./TrackingLink";
+import { Helmet } from "react-helmet";
 
 import podcastsJson from "../data/podcasts.json";
 import "./Podcast.scss";
@@ -41,15 +42,18 @@ interface PodcastProps extends RouteComponentProps {
   name?: keyof typeof podcastsJson;
 }
 
-const Podcast: React.FC<PodcastProps> = props => {
-  const name = (props.name!).replace(decodeURIComponent("%E2%80%AC"), '') as keyof typeof podcastsJson;
+const Podcast: React.FC<PodcastProps> = (props) => {
+  const name = props.name!.replace(
+    decodeURIComponent("%E2%80%AC"),
+    ""
+  ) as keyof typeof podcastsJson;
 
   const galleryRef = useRef<ImageGallery>(null);
 
   const podcast = useMemo(() => podcastsJson[name], [name]);
 
   const isIE = useMemo(() => checkBrowserForIE(), []);
-  const podcastImage = isIE ? imagesIE[name] : images[name];
+  const podcastImage = images[name];
   const backgroundImage = isIE ? imagesIE[name] : images[name];
 
   const imagePage = useMemo(
@@ -102,6 +106,13 @@ const Podcast: React.FC<PodcastProps> = props => {
 
   return (
     <>
+      <Helmet>
+        <meta property="og:title" content={podcast.title} />
+        <meta property="og:description" content={podcast.description} />
+        <meta property="og:image" content={podcastImage} />
+        <meta property="og:url" content="https://wdr.de/0630" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div
         className="background"
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -145,10 +156,7 @@ const Podcast: React.FC<PodcastProps> = props => {
           </div>
           <div className="podcast__wrapper__content__footer">
             <span>
-              <a href="https://www1.wdr.de/impressum/index.html">
-                Impressum
-              </a>{" "}
-              |{" "}
+              <a href="https://www1.wdr.de/impressum/index.html">Impressum</a> |{" "}
               <a href="https://www1.wdr.de/hilfe/datenschutz102.html">
                 Datenschutz
               </a>{" "}
