@@ -107,9 +107,16 @@ const Podcast: React.FC<PodcastProps> = (props) => {
   return (
     <>
       <Helmet>
-        <meta property="og:title" content={podcast.title} />
+        <meta
+          property="og:title"
+          content={`${podcast.title} ${podcast.host}`}
+        />
         <meta property="og:description" content={podcast.description} />
         <meta property="og:image" content={podcastImage} />
+        <meta
+          property="twitter:image"
+          content={`${process.env["NETLIFY_DEPLOY_URL"]}${podcastImage}`}
+        />
         <meta property="og:url" content="https://wdr.de/0630" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
