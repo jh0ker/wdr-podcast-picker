@@ -5,20 +5,20 @@
     "host": "by WDR aktuell",
     "platforms": [
       {
-        "name": "spotify",
-        "url": "https://open.spotify.com/show/3LvgkjCjA3I49mfzrHtxmV"
-      },
-      {
-        "name": "apple",
-        "url": "https://podcasts.apple.com/de/podcast/0630-by-wdr-aktuell/id1530957169"
+        "name": "audiothek",
+        "url": "https://www.ardaudiothek.de/0630-by-wdr-aktuell-der-morgen-podcast/79906662"
       },
       {
         "name": "wdr",
         "url": "https://www1.wdr.de/mediathek/audio/wdr/0630bywdraktuell/0630bywdraktuell-100.html"
       },
       {
-        "name": "audiothek",
-        "url": "https://www.ardaudiothek.de/0630-by-wdr-aktuell-der-morgen-podcast/79906662"
+        "name": "spotify",
+        "url": "https://open.spotify.com/show/3LvgkjCjA3I49mfzrHtxmV"
+      },
+      {
+        "name": "apple",
+        "url": "https://podcasts.apple.com/de/podcast/0630-by-wdr-aktuell/id1530957169"
       },
       {
         "name": "google",
